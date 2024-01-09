@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>خۆتۆمارکردن</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="shortcut icon" href="../وێنە/logo.png" />
+    <link href="../bootstrap.min.css" rel="stylesheet" />
+    <script src="../bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="but">
+      <button
+        class="log-in btn btn-dark rounded-0"
+        onclick="myfnOne()"
+        type="button"
+      >
+        چوونەژورەوە
+      </button>
+      <button
+        class="sign-up btn btn-dark rounded-0"
+        onclick="myfn()"
+        type="button"
+      >
+        خۆتۆمارکردن
+      </button>
+    </div>
+    <form class="d-block ferst  container">
+      <br /><br />
+      <br />
+      <br />
+
+      <h4>بەخێربێیتەوە</h4>
+      <br />
+      <br />
+      <input class="username" type="username" placeholder="username" />
+      <br /><br />
+      <input class="password" type="password" placeholder="password" />
+      <br />
+      <br />
+      <input
+        class="form-check-input p-2"
+        type="checkbox"
+        value=""
+        id="defaultCheck1"
+      />
+      <label> منت بیربێ </label>
+      <a class="forget" href="#"
+        >وشەی نهێنیم بیرچووە؟</a
+      >
+      <br />
+      <br />
+      <br />
+      <br />
+      <a
+        class="btn btn-dark"
+        href="../index.html"
+        onclick="alert('بەخێربێیتەوە بۆ ئاژەڵ ناسی')  "
+      >
+        پەسەندکردن</a
+      >
+    </form>
+    <form class="d-none ferst  container">
+      <br /><br />
+      <br />
+      <h4>خۆتۆمارکردن</h4>
+      <br />
+      <input class="username" type="username" placeholder="username" />
+      <br /><br />
+      <input class="username" type="email" placeholder="email" />
+      <br /><br />
+      <input class="number" type="number" placeholder="number phone" />
+      <br /><br />
+      <input class="password" type="password" placeholder="password" />
+      <br />
+
+      <br />
+      <br />
+      <a
+        class="btn btn-dark"
+        href="../index.html"
+        onclick="alert('بەخێربێیت بۆ ئاژەڵ ناسی')"
+      >
+        پەسەندکردن</a
+      >
+    </form>
+  </body>
+</html>
+<script>
+  function myfn() {
+    const login = document.querySelector(".lolo");
+    const signUp = document.querySelector(".lele");
+    signUp.style = "display: none !important;";
+    login.style = "display: block !important;";
+  }
+  function myfnOne() {
+    const login = document.querySelector(".lolo");
+    const signUp = document.querySelector(".lele");
+    signUp.style = " display: block !important;";
+    login.style = "display: none !important;";
+  }
+</script>

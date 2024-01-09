@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url("../وێنە/login.jpg");
+  font-family: sans-serif;
+}
+
+.ferst {
+  background: rgba(255, 255, 255, 0.449);
+  height: 550px;
+  width: 420px !important;
+  box-shadow: rgb(0, 0, 0) 0px 0px 9px 0px;
+  margin: -40px 0px 0px 350px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+.btn {
+  height: 40px;
+  width: 30%;
+
+  font-size: 18px;
+}
+.but {
+display: flex !important; 
+  margin: 100px 0px 0px 119px;
+  align-items: center;
+  justify-content: center;
+  min-width: 403px;
+}
+@media (max-width: 521px) {
+  .but {
+      min-width: 300px;
+    }
+}
+.sign-up {
+  width: 213px;
+  margin: 0px 0px 0px -6px;
+  border-bottom: 2px solid black !important;
+}
+.log-in {
+  width: 213px;
+  margin: 0px 0px 0px -119px;
+  border-bottom: 2px solid black !important;
+}
+.sign-up:hover،.log-in:hover 
+  {
+  background: rgba(116, 116, 116, 0.616) !important ;
+}
+
+
+.button:hover {
+  background-color: rgb(38, 94, 38);
+}
+input {
+  margin: 50px 0px 0px 0px;
+  background-color: rgba(255, 255, 255, 0.388);
+  border-radius: 7px;
+  border: 1px solid black;
+  height: 40px;
+  width: 70%;
+  padding: 20px;
+  box-shadow: inset -1px -1px 3px 0px black, 0px 0px 2px 0px black;
+}
+
+.forget {
+  margin: 10px 0px 0px 70px;
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./وێنە/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+
+    <link href="./bootstrap.min.css" rel="stylesheet" />
+    <link href="./index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <title>ئاژەڵ ناسی</title>
+  </head>
+  <body>
+    <!-- ----------------------------------  hedar -------------------------------------- -->
+
+    <!-- ----------------------------------  ناو و لۆگۆ -------------------------------------- -->
+
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary shadow-sm border-bottom fixed-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img
+            src="./وێنە/logo.png "
+            alt="Logo"
+            width="50"
+            height="50"
+            class="d-inline-block bg-dark ms-3 rounded-circle"
+          />
+          ئاژەڵ ناسی
+        </a>
+        <!-- ----------------------------------  search -------------------------------------- -->
+
+        <form class="d-sm-inline-flex d-none" role="search">
+          <input
+            class="form-control border-2 me-2"
+            type="search"
+            placeholder="گەڕان"
+            aria-label="Search"
+          />
+          <button
+            class="btn btn-outline-success border-0 rounded-2 active"
+            type="submit"
+          >
+            گەڕان
+          </button>
+        </form>
+        <!-- ----------------------------------  menu -------------------------------------- -->
+
+        <button
+          class="navbar-toggler ms-auto menu darkkk"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon container"></span>
+        </button>
+        <!-- ----------------------------------  button -------------------------------------- -->
+
+        <div class="hstack gap-5">
+          <div class="collapse navbar-collapse m-2" id="navbarSupportedContent">
+            <ul class="navbar-nav ull text-center me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="btn btn-outline-success rounded-2 me-5 border-0"
+                  role="button"
+                  aria-current="page"
+                  href="./ئاویەکان/ئاویەکان.html"
+                  >ئاویەکان</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn btn-outline-success rounded-2 me-5 border-0"
+                  role="button"
+                  aria-current="page"
+                  href="./وشکانیەکان/وشکانیەکان.html"
+                  >وشکانیەکان</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn btn-outline-success rounded-2 me-5 border-0"
+                  role="button"
+                  aria-current="page"
+                  href="./باڵندەکان/باڵندەکان.html"
+                  >باڵندەکان</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="btn btn-outline-success rounded-2 me-5 border-0 me-xxl-5"
+                  role="button"
+                  aria-current="page"
+                  href="./ئاژەڵەکان/ئاژەڵەکان.html"
+                  >ئاژەڵەکان</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn btn-outline-success rounded-2 me-5 border-0 me-xxl-5"
+                  role="button"
+                  aria-current="page"
+                  href="./logen/login.html"
+                  >چوونەژوورەوە</a
+                >
+              </li>
+              <div id="toggle-btn" class="mode-change fas fa-sun"></div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br /><br />
+    <!-- ----------------------------------  ڕسمی گەورە  -------------------------------------- -->
+    <img
+      src="./وێنە/Untitled-1.jpg "
+      class="img-fluid border-bottom lolo border-5 border-danger"
+    />
+
+    <!-- ----------------------------------  ڕسم و نوسین  -------------------------------------- -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="bg-success bg-opacity-75 me container-fluid pb-3">
+      <br />
+      <div
+        id="box"
+        class="h1 darkk py-3 w-75 text-center rounded-5 container my-5"
+      >
+        ئەو ئاژەڵانەی لەناو ئاو ئەژین
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-5 container my-5 mx-auto">
+        <div class="col carddd">
+          <div class="darkk card h-100">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./نەهەنگ/نەهەنگ.html"
+            >
+              <img
+                src="https://www.zaniary.com/ariaApp/zaniary/files/du/art_article/62d86f42aec10.jpg"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+            /></a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">نەهەنگی بکوژ</h5>
+              <p id="demo" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('demo').innerHTML=(`
+                نشینگەکەی دەکەوێتە زەریاکانەوە و دەتوانێت لە هەردوو ناوچەی ئاوی
+                گەرم و سارددا خۆی بگونجێنێت، شێوازی ژیانکردنی تاکەکان پێکەوەیە
+                واتە گیانەوەرێکی کۆمەڵایەتییە و پێکەوە کۆمەڵەی تایبەت بە خۆیان
+                دروستدەکەن،`)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col carddd">
+          <div class="card h-100 darkk">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./کیسەڵ/کیسەڵ.html"
+            >
+              <img
+                src="https://www.zaniary.com/ariaApp/zaniary/files/du/art_article/6302b35a95c33.jpg"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+              />
+            </a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">کیسەڵەکان</h5>
+              <p id="demoo" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('demoo').innerHTML=(`
+          کۆنترین خشۆکەکانن کە هەتا ئێستا ماونەتەوە، ئاژەڵی خوێن ساردن و
+                  ژمارەیەک ڕژێنیان هەیە کە هاوکارییان دەکات لە پاککردنەوەی ئاو
+                  لە خوێیەکان لە کاتی خواردنەوەیان،
+              ،`)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col carddd">
+          <div class="card h-100 darkk">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./تیمساح/تیمساح.html"
+            >
+              <img
+                src="https://www.zaniary.com/ariaApp/zaniary/files/du/art_article/61dffde194509.jpg"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+              />
+            </a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">تیمساحەکان</h5>
+              <p id="dem" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('dem').innerHTML=(`
+       یانەوەرێکی وشکاوەکی گۆشتخۆرە، شێوەی دەرەوەی وەک ئەندامەکانی
+                  خێزانی مارمێلکەکانە، تیمساحەکان لە پلەی خشۆکەکاندا
+                  پۆلێندەکرێن،
+              ،`)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col carddd">
+          <div class="card h-100 darkk">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./ماسی جلی/ماسی جلی.html"
+            >
+              <img
+                src="https://www.zaniary.com/ariaApp/zaniary/files/du/art_article/62d1ba98ad973.jpg"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+              />
+            </a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">ماسیی جەلی</h5>
+              <p id="demi" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('demi').innerHTML=(`
+         گیانەوەرێکی کۆمەڵەی بێ بڕبڕەکانە و نشینگەکەی دەکەوێتە
+                  زەریاکانەوە، جێگەی ژیانکردنیشی هەردوو ئاوی گەرم و سارد
+                  دەگرێتەوە لە قووڵایی زەریاکاندا بێت یاخود لە نزیک ڕووی ئاوەکە،
+              ،`)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------------  ڕسم و نوسین  -------------------------------------- -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="bg-info bg-opacity-50 me container-fluid pb-3">
+      <br />
+      <div class="h1 darkk py-3 w-75 text-center rounded-5 container my-5">
+        ئەو ئاژەڵانەی لەسەر وشکانی ئەژین
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-5 container my-5 mx-auto">
+        <div class="col carddd">
+          <div class="card h-100 darkk">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./میرکات/میرکات.html"
+            >
+              <img
+                src="https://www.timeforkids.com/wp-content/uploads/2020/08/animalVoting.jpg?w=1024"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+              />
+            </a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">ئاژەڵی میرکات</h5>
+              <p id="demm" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('demm').innerHTML=(`
+                میرکات ڕەگەزێکە لە جۆرەکانی ئاژەڵ کە سەر بە خێزانی
+                  مارمۆسێتەکانە بە ڕیزبەندی گۆشتخۆرەکان،`)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col carddd">
+          <div class="card h-100 darkk">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./پاندا/پاندا.html"
+            >
+              <img
+                src="data:image/jpeg;base64,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"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+              />
+            </a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">ئاژەڵی پاندا</h5>
+              <p id="demmm" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('demmm').innerHTML=(`
+               ئاژەڵێکی قەبارەی گەورەی مەمکدارە لە خێزانی ورچەکاندا
+                  پۆلێنکراوە، بەڵام ورچێکی دەگمەنە و ژمارەی کەمە،`)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col carddd">
+          <div class="card h-100 darkk">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./مەیموون/مەیموون.html"
+            >
+              <img
+                src="https://www.india.com/wp-content/uploads/2020/12/monkey-4263048_1280.jpg"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+              />
+            </a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">ئاژەڵی مەیموون</h5>
+              <p id="demmmm" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('demmmm').innerHTML=(`
+                                مەیموونەکان ئاژەڵی مەمکدارن کە لە پلەی پێشەنگەکاندا
+                  پۆلێنکراون، و لە بەرزترین پلەکانیدا، زیاتر لە دووسەد جۆری هەیە
+                  کە بە هەموو جیهاندا بڵاوبوونەتەوە`)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col carddd">
+          <div class="card h-100 darkk">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./کەرکەدەن/کەرکەدەن.html"
+            >
+              <img
+                src="https://www.zaniary.com/ariaApp/zaniary/files/du/art_article/62fbea2f136e9.jpg"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+              />
+            </a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">ئاژەڵی کەرکەدەن</h5>
+              <p id="demmmmm" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('demmmmm').innerHTML=(`
+                                   لە چەند ناوچەیەکی کەمی ئاسیا و ئەفریقادا هەن هەموو جۆرەکانی لە
+                  ئێستادا مەترسی لەناوچوونیان لەسەرە، هەندێکیان یەک قۆچیان هەیە
+                  و جۆرەکانی دیکە دوو دانەیان هەیە، `)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------------  ڕسم و نوسین  -------------------------------------- -->
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="bg-opacity-75 bg-danger me container-fluid pb-3">
+      <br />
+      <div
+        id="boxThree"
+        class="h1 darkk py-3 w-75 text-center rounded-5 container my-5"
+      >
+        ئەو ئاژەڵانەی کە ئەتوانن بفڕن
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-5 container my-5 mx-auto">
+        <div class="col carddd">
+          <div id="boxanimal" class="card h-100 darkk">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./باز/باز.html"
+            >
+              <img
+                src="https://www.zaniary.com/ariaApp/zaniary/files/du/art_article/630767a402d14.jpg"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+              />
+            </a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">باڵندەی باز</h5>
+              <p id="dew" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('dew').innerHTML=(`
+                                         بازەکان باڵندەی قەبارە گەورەن پێکهاتەی جەستەیان پتەو و بەهێزە
+                  و سەر و دەنوکیان قورسە، کە دەنوکیان لە زۆرینەی باڵندە
+                  ڕاوکەرەکانی دیکە قورسترە، تەنانەت لە ئەو جۆرە بازانەش کە
+                  قەبارەیان بچووکە، `)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col carddd">
+          <div id="boxanimalTwo" class="card h-100 darkk">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./پەپولە/پەپولە.html"
+            >
+              <img
+                src="https://www.sangbadpratidin.in/wp-content/uploads/2020/08/Butterfly.jpg"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+              />
+            </a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">پەپولە</h5>
+              <p id="deww" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('deww').innerHTML=(`
+             پەپوولە هەراشەکان باڵی گەورەیان هەیە کە زۆرجار ڕەنگاوڕەنگن.
+                  فۆسیڵەکانی پەپوولە تەمەنیان دەگاتە ٥٦ ملیۆن ساڵ. پەپوولە وەک
+                  مێرووەکانی دیکە، سووڕی ژیانی لە چوار قۆناغ پێکدێت. `)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col carddd">
+          <div id="boxanimalThree" class="card h-100 darkk">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./حاجی لەقلەقەکان/حاجی لەقلەقەکان.html"
+            >
+              <img
+                src="https://www.zaniary.com/ariaApp/zaniary/files/du/art_article/61c3392e1406f.jpg"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+              />
+            </a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">حاجی لەق لەق</h5>
+              <p id="dewww" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('dewww').innerHTML=(`
+                 باڵندەیەکی قەبارە گەورەی کۆمەڵەی لەقلەقەکانە کە چالاکییەکانیان
+                  بە ڕۆژدا ئەنجام دەدەن و پێکەوە و بە کۆمەڵە دەژین، نشینگەکەی
+                  ناوچەی زۆر و جیاواز دەگرێتەوە `)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col carddd">
+          <div id="boxanimalfor" class="card h-100 darkk">
+            <a
+              class="text-end text-dark-emphasis text-opacity-75 text-decoration-none"
+              href="./پەپوسڵێمانە/پەپوسڵێمانە.html"
+            >
+              <img
+                src="https://1.bp.blogspot.com/-L9omeRIRyeo/V4OROXwbdRI/AAAAAAAAACE/L8YaLCviTAMQwRVHTTyXH4-NEpc5zp-4QCLcB/s640/%25D9%25BE%25DB%2595%25D9%25BE%25D9%2588%25D8%25B3%25DA%25B5%25DB%258E%25D9%2585%25D8%25A7%25D9%2586%25DB%2595.jpg"
+                class="card-img-top"
+                style="height: 200px"
+                alt="..."
+              />
+            </a>
+            <div class="text-end card-body cards-info">
+              <h5 class="card-title">پەپوسڵێمانە</h5>
+              <p id="dewwww" class="card-text"></p>
+
+              <button
+                class="btn btn-success align-items-center container w-50 me-5 my-2"
+                onclick="document.getElementById('dewwww').innerHTML=(`
+             تاکە ئەندامی خێزانی پەتدارەکانە کە هەتا ئێستا ماوە و چەندین
+                  تایبەتمەندی هەیە کە جیای دەکاتەوە لە باڵندەکانی دیکە، هەروەها
+                  لە قورئانیشدا ناوی هاتووە، نشینگەکەی کیشوەرەکانی ئاسیا و
+                  ئەورووپا و ئەفریقایە، ژمارەی بە نزیکەیی لە نێوان ٥-١٠
+                  ملیۆندایە، `)"
+              >
+                ئەخوێنمەوە
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------------   خەتی بنی   -------------------------------------- -->
+    <br /><br /><br />
+
+    <!-- Footer -->
+
+    <footer
+      class="text-center darkk text-lg-start border-top border-4 border-secondary text-muted"
+      style="background-color: rgba(224, 224, 224, 0.114)"
+    >
+      <!-- Section: Social media -->
+      <section
+        class="d-flex darkk justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 darkk d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 link-secondary">
+            <span class="material-icons"> telegram </span>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <span class="material-icons"> language </span>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <span class="material-icons"> facebook </span>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <span class="material-icons"> person </span>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="darkk">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase darkk fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>zoology
+              </h6>
+              <p>
+                A website dedicated to learning about how animals live such as:
+                food, shelter and much more
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="./ئاژەڵەکان/ئاژەڵەکان.html" class="text-reset"
+                  >ئاژەڵەکان</a
+                >
+              </p>
+              <p>
+                <a href="./وشکانیەکان/وشکانیەکان.html" class="text-reset"
+                  >وشکانیەکان</a
+                >
+              </p>
+              <p>
+                <a href="./ئاویەکان/ئاویەکان.html" class="text-reset"
+                  >ئاویەکان</a
+                >
+              </p>
+              <p>
+                <a href="./باڵندەکان/باڵندەکان.html" class="text-reset"
+                  >باڵندەکان</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>
+                <span class="material-icons"> home </span>
+                kurdstan,hawler,****
+              </p>
+              <p>
+                <span class="material-icons"> email </span>
+                paeuand24@gmail.com
+              </p>
+              <p>
+                <span class="material-icons"> phone </span>
+                0750 *** ** **
+              </p>
+              <p>
+                <span class="material-icons"> messenger </span>
+                user.com
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="darkk text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.025)"
+      >
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="">zoology.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./script.js"></script>
